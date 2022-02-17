@@ -263,21 +263,21 @@ export default {
     <div class="logo-box" style="background:orange">
         <nuxt-link to="/" class="logo logo-dark text-center" >
             <span class="logo-sm">
-                <img src="~/assets\images\oneconnect-images\cropped-oneconnect-logo.jpeg" alt height="37" />
+                <img src="~/assets/images/oneconnect-images/cropped-oneconnect-logo.jpeg" alt height="37" />
                 <!-- <span class="logo-lg-text-light">Minton</span> -->
             </span>
             <span class="logo-lg">
-                <img src="~/assets\images\oneconnect-images\cropped-oneconnect-logo.jpeg" alt height="29" />
+                <img src="~/assets/images/oneconnect-images/cropped-oneconnect-logo.jpeg" alt height="29" />
                 <!-- <span class="logo-lg-text-light">M</span> -->
             </span>
         </nuxt-link>
 
         <nuxt-link to="/" class="logo logo-light text-center">
             <span class="logo-sm">
-                <img src="~/assets\images\oneconnect-images\cropped-oneconnect-logo.jpeg" alt height="37" />
+                <img src="~/assets/images/oneconnect-images/cropped-oneconnect-logo.jpeg" alt height="37" />
             </span>
             <span class="logo-lg">
-                <img src="~/assets\images\oneconnect-images\cropped-oneconnect-logo.jpeg" alt height="60" width="100" />
+                <img src="~/assets/images/oneconnect-images/cropped-oneconnect-logo.jpeg" alt height="60" width="100" />
             </span>
         </nuxt-link>
     </div>

@@ -60,7 +60,7 @@ export default {
               <nuxt-link to="/" class="logo logo-dark text-center">
                 <span class="logo-lg"> 
                   <img
-                    src="~/assets\images\oneconnect-images\cropped-oneconnect-logo.jpeg"
+                    src="~/assets/images/oneconnect-images/cropped-oneconnect-logo.jpeg"
                     alt=""
                     style="background-color: orange"
                     height="80"
@@ -71,7 +71,7 @@ export default {
               <nuxt-link to="/" class="logo logo-light text-center">
                 <span class="logo-lg">
                   <img
-                    src="~/assets\images\oneconnect-images\cropped-oneconnect-logo.jpeg"
+                    src="~/assets/images/oneconnect-images/cropped-oneconnect-logo.jpeg"
                     alt=""
                     height="80"
                   />
