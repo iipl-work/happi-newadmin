@@ -264,6 +264,12 @@ export const salesAdminMenuItems = [
                 label: 'Bajaj Stock',
                 link: '/reports-bajajstock',
                 iframe:"https://iipl.retool.com/embedded/public/d4ba7f11-798b-4cc7-bd33-527ba01e684e"
+            },  
+            {
+                id: 5,
+                label: 'Bajaj Stock Report',
+                link: '/reports-bajajstockreport',
+                iframe:"https://iipl.retool.com/embedded/public/a2e201d3-50c2-411a-bc82-b8b26de525ad"
             },     
             {
                 id: 5,
