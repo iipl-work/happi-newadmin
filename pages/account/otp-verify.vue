@@ -28,7 +28,6 @@ export default {
   methods: {
     async tryToLogIn() {
       let temp = await this.$store.dispatch("auth/setOtpStatus", this.otp);
-      console.log("TTT", temp);
       if (temp.status) {
         this.$router.push("/");
       } else {

@@ -52,8 +52,6 @@ export const actions = {
         var dataBase = mongo.mongodb;
         const clusterDataDB = dataBase.db('one_connect').collection('Cluster');
         const receivedData = await clusterDataDB.find({});
-        
-        console.log('=====receivedData', receivedData);
         commit('SET_LIST',receivedData);
         return receivedData; 
     },

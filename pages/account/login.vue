@@ -26,7 +26,6 @@ export default {
   methods: {
     async tryToLogIn() {
        let temp = await this.$store.dispatch('auth/setAuthStatus',this.phonenumber);
-                console.log('TTT', temp);
                 if (temp.status) {  
                         this.$router.push("/account/otp-verify");
                 }else{

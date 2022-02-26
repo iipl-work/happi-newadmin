@@ -112,7 +112,7 @@ export const salesAdminMenuItems = [
                 id:11,
                 label: 'Stock & Price Updateing',
                 link: '/orders-stockpriceupdateing',
-                iframe:"https://iipl.retool.com/embedded/public/c56ab9d5-f1f1-446b-b258-5491d573db8f"
+                iframe:"https://iipl.retool.com/embedded/public/86067111-3c0f-4d8f-adc6-b0f5d7bbf31f"
             },
             {
                 id:11,

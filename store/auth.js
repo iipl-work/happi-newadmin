@@ -37,7 +37,6 @@ export const actions = {
             phone: localStorage.getItem('userLoginPhone'), 
             otp: payload
         };
-        console.log("temp",temp);
         var response;
         try {
             response = await Repository.post(`${baseUrl}api/user-verify`, temp);
