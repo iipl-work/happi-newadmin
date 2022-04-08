@@ -116,6 +116,12 @@ export const salesAdminMenuItems = [
             },
             {
                 id:11,
+                label: 'Cart User Details',
+                link: '/orders-cartuserdetails',
+                iframe:"https://iipl.retool.com/embedded/public/a29ead64-c620-456b-93e5-84c655496129"
+            },
+            {
+                id:11,
                 label: 'Abandoned Cart',
                 link: '/orders-abandonedcart',
                 iframe:"https://iipl.retool.com/embedded/public/676a07f7-0afd-4724-83dc-17cde22d9d45"
