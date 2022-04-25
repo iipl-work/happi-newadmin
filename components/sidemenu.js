@@ -207,6 +207,12 @@ export const salesAdminMenuItems = [
                 link: '/offers-laptopmobileleads',
                 iframe:"https://iipl.retool.com/embedded/public/bdafbdb5-13f0-4324-bd47-1670d21d68e7"
             },
+            {
+                id: 9,
+                label: 'Employee Leads',
+                link: '/leads-employeeleads',
+                iframe:"https://iipl.retool.com/embedded/public/92e2f6ee-65ca-40bd-a962-5f38f488b005"
+            },
             
         ]
     },

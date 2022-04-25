@@ -117,8 +117,10 @@ export default {
     appid: process.env.VUE_APP_APPId,
     measurement: process.env.VUE_APP_MEASUREMENTID,
   },
-  server:{
-    port:3005,
-    host:'0.0.0.0'
-  }
+  
+  server: {
+    port: 4003,
+    host: "localhost"
+}
+
 }
