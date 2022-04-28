@@ -201,12 +201,7 @@ export const salesAdminMenuItems = [
                 link: '/leads-reportexportfilter',
                 iframe:"https://iipl.retool.com/embedded/public/c56ab9d5-f1f1-446b-b258-5491d573db8f"
             },
-            {
-                id: 5,
-                label: 'Laptop & Mobiles Leads',
-                link: '/offers-laptopmobileleads',
-                iframe:"https://iipl.retool.com/embedded/public/bdafbdb5-13f0-4324-bd47-1670d21d68e7"
-            },
+          
             {
                 id: 9,
                 label: 'Employee Leads',
@@ -330,6 +325,12 @@ export const salesAdminMenuItems = [
                 label: 'Coupon & Voucher Code Report',
                 link: '/reports-couponvouchercodereport',
                 iframe:"https://iipl.retool.com/embedded/public/c56ab9d5-f1f1-446b-b258-5491d573db8f"
+            },
+            {
+                id: 5,
+                label: 'Laptop & Mobiles Leads Reports',
+                link: '/offers-laptopmobileleadsreports',
+                iframe:"https://iipl.retool.com/embedded/public/bdafbdb5-13f0-4324-bd47-1670d21d68e7"
             },            
         ]
     },
