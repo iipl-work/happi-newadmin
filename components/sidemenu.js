@@ -331,7 +331,13 @@ export const salesAdminMenuItems = [
                 label: 'Laptop & Mobiles Leads Reports',
                 link: '/offers-laptopmobileleadsreports',
                 iframe:"https://iipl.retool.com/embedded/public/bdafbdb5-13f0-4324-bd47-1670d21d68e7"
-            },            
+            },
+            // {
+            //     id: 5,
+            //     label: 'Dashboard Reports',
+            //     link: '/dashboard-reports',
+            //     iframe:"https://my-deployment-031377.kb.ap-south-1.aws.elastic-cloud.com:9243/app/r/s/embarrassed-raspy-butcher"
+            // },             
         ]
     },
     

@@ -1,5 +1,8 @@
 import Repository, { mongoService } from '~/repositories/Repo.js';
 import { baseUrl } from '~/repositories/Repo'; 
+const crypto = require('crypto');
+const secret = '1584FFBB3C6D5F74A5A41E7D3674A';
+import axios from 'axios';
 
 export const state = () => ({
     isLoggedIn: false,
@@ -23,7 +26,21 @@ export const actions = {
         };
         var response;
         try {
-            response = await Repository.post(`${baseUrl}api/user-login`, temp); 
+            const hash = crypto.createHmac('sha256', secret)
+            .update(`POST:LOGIN${JSON.stringify(temp)}`)
+            .digest('hex');
+
+            var config = {
+                headers:{
+                    'x-sign':hash,
+                    'Content-Type':'application/json; charset=utf-8'
+                },
+                method:"POST",
+                url: 'https://dev-services.happimobiles.com/api/user-login',
+                data:JSON.stringify(temp)
+            }
+            console.log("REQ", config)
+            response = await axios(config); 
         } catch (error) {
             console.log('error', error);
         }  
