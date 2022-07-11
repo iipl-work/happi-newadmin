@@ -126,6 +126,12 @@ export const salesAdminMenuItems = [
                 link: '/orders-abandonedcart',
                 iframe:"https://iipl.retool.com/embedded/public/676a07f7-0afd-4724-83dc-17cde22d9d45"
             },
+            {
+                id:11,
+                label: 'Ingram Orders Happi',
+                link: '/ingram-orders-happi',
+                iframe:"https://iipl.retool.com/embedded/public/3e5195a5-3314-4303-b693-42c2ee8a1b2d"
+            },
         ]
     },
     {
@@ -340,5 +346,27 @@ export const salesAdminMenuItems = [
             // },             
         ]
     },
+    {
+        id: 20,
+        label: "Orders Ingram",
+        icon: "ri-list-ordered",
+        isMenuCollapsed: false,
+        access : "Ingram",
+        subItems: [
+            {
+                id: 1,
+                label: 'Ingram Orders',
+                link: '/ingram-orders',
+                iframe:"https://iipl.retool.com/embedded/public/8fbca444-2d85-4c22-bacb-d41f64558183"
+            },  
+                       
+        ]
+    },
+    // {
+    //     id: 1,
+    //     label: 'Ingram Orders',
+    //     link: '/ingram-orders',
+    //     iframe:"https://iipl.retool.com/embedded/public/8fbca444-2d85-4c22-bacb-d41f64558183"
+    // },  
     
 ] 
