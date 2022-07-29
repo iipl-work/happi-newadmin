@@ -343,7 +343,13 @@ export const salesAdminMenuItems = [
             //     label: 'Dashboard Reports',
             //     link: '/dashboard-reports',
             //     iframe:"https://my-deployment-031377.kb.ap-south-1.aws.elastic-cloud.com:9243/app/r/s/embarrassed-raspy-butcher"
-            // },             
+            // },   
+            {
+                id: 5,
+                label: 'Ingram Stock Report',
+                link: '/happi_ingram_stock_report',
+                iframe:"https://iipl.retool.com/embedded/public/d8c30779-b80f-4977-b381-6958c9ca8922"
+            },          
         ]
     },
     {
@@ -359,6 +365,12 @@ export const salesAdminMenuItems = [
                 link: '/ingram-orders',
                 iframe:"https://iipl.retool.com/embedded/public/8fbca444-2d85-4c22-bacb-d41f64558183"
             },  
+            {
+                id: 5,
+                label: 'Ingram Stock Report',
+                link: '/ingram_stock_report',
+                iframe:"https://iipl.retool.com/embedded/public/d8c30779-b80f-4977-b381-6958c9ca8922"
+            },
                        
         ]
     },
