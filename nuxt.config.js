@@ -121,6 +121,6 @@ export default {
   server: {
     port: 4003,
     host: "localhost"
-}
+  }
 
 }
