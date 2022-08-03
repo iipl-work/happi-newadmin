@@ -87,6 +87,12 @@ export const salesAdminMenuItems = [
                 link: '/cms-campaignbuilders',
                 iframe:"https://iipl.retool.com/embedded/public/c56ab9d5-f1f1-446b-b258-5491d573db8f"
             },
+            {
+                id:11,
+                label: 'Product Codes', 
+                link: '/cms-productcodes',
+                iframe:"https://iipl.retool.com/embedded/public/fb59b512-bb42-4f39-80f1-b5cc664b440c"
+            },
         ]
     },    
     {
