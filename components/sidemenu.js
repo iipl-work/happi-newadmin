@@ -386,5 +386,21 @@ export const salesAdminMenuItems = [
     //     link: '/ingram-orders',
     //     iframe:"https://iipl.retool.com/embedded/public/8fbca444-2d85-4c22-bacb-d41f64558183"
     // },  
+    {
+        id: 21,
+        label: "New Ingram Stock",
+        icon: "ri-list-ordered",
+        isMenuCollapsed: false,
+        access : "New Ingram Stock",
+        subItems: [
+            {
+                id: 1,
+                label: 'New Ingram Stock',
+                link: '/new_ingram_stock',
+                iframe:"https://iipl.retool.com/embedded/public/cbdadb17-d264-4d3a-94b6-0038ea539393"
+            },  
+               
+        ]
+    },
     
 ] 
